@@ -1,0 +1,112 @@
+
+- {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #333;
+background-color: #f7f7f7; /* Blanco suave */
+}
+
+h1, h2 {
+color: #4CAF50; /* Verde suave */
+margin-bottom: 0.5em;
+}
+
+h1 {
+font-size: 2.5em;
+}
+
+h2 {
+font-size: 2em;
+}
+
+p, ul {
+margin-bottom: 1.5em;
+}
+
+ul {
+list-style: none;
+}
+
+li {
+margin-bottom: 0.5em;
+}
+
+a {
+text-decoration: none;
+color: #7A288A; /* Violeta suave */
+}
+
+a:hover {
+color: #5C206A; /* Violeta oscuro */
+}
+
+/* Logo y cabecera */
+
+.logo {
+text-align: center;
+margin-bottom: 2em;
+}
+
+.logo-imagen {
+width: 100px;
+height: auto;
+margin: 0 auto;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+nav {
+background-color: #8BC34A; 
+padding: 1em;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+color: #fff;
+}
+
+nav a:hover {
+color: #ccc;
+}
+
+section {
+margin-bottom: 2em;
+padding: 1em;
+background-color: #C6E2B5; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+nav ul {
+flex-direction: column;
+}
+
+nav li {
+margin-right: 0;
+margin-bottom: 10px;
+}
